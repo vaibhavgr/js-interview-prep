@@ -9,3 +9,5 @@ const reversed = arr.toReversed();
 console.log(reversed); 
 console.log(array);  
 console.log(array);  
+
+

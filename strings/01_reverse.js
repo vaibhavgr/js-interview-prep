@@ -1,7 +1,8 @@
+const count = "vaibhak";
+let reverse = "";
 
-function reverseString(str) {
-  return str.split('').reverse().join('');
+for (let i = count.length - 1; i >= 0; i--) {
+  reverse += count[i];
 }
 
-// For Quokka.js Live execution testing:
-console.log(reverseString("javascript")); // Output: tpircsavaj
+console.log(reverse);
