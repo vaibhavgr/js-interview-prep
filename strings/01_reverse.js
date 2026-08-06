@@ -1,8 +1,8 @@
-const count = "vaibhak";
+const count = "vaibhav";
 let reverse = "";
 
 for (let i = count.length - 1; i >= 0; i--) {
-  reverse += count[i];
+  reverse = reverse + count[i];
 }
 
 console.log(reverse);
