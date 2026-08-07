@@ -1,10 +1,10 @@
-const palindrome = "madam";
+const str = "madam";
 let reverse = "";
 
-for (let i = palindrome.length - 1; i >= 0; i--) {
-    reverse = reverse + palindrome[i];
+for (let i = str.length - 1; i >= 0; i--) {
+    reverse = reverse + str[i];
 }
-if (reverse === palindrome) {
+if (reverse === str) {
     console.log("yes")
 }
 else {
@@ -14,3 +14,19 @@ else {
 //palindrome second solution 
 
 
+const string = "madam"
+
+let left = 0
+let right = string.length - 1;
+
+let palindrome = true;
+while (left < right) {
+    if (string[left] != string[right]) {
+        palindrome = false
+        break;
+    }
+    left++
+    right--
+}
+
+console.log(palindrome)
