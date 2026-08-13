@@ -21,7 +21,7 @@ let right = string.length - 1;
 
 let palindrome = true;
 while (left < right) {
-    if (string[left] != string[right]) {
+    if (string[left] !== string[right]) {
         palindrome = false
         break;
     }
