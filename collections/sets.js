@@ -1,6 +1,10 @@
 const set = new Set([1, 2, 3, 3, 4, 4])
 console.log(set)
 
+
+
+
+//second way 
 const mySet = new Set();
 
 mySet.add(1);

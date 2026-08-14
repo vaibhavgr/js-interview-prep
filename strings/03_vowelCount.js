@@ -31,6 +31,6 @@ for (let i = 0; i < strin.length; i++) {
         countset++;
     }
 }
-console.log(countset);
+console.log("vowel in set " +countset);
 
 
